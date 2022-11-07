@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, p {
+
+    color: #223324;;
+
+}
+
+html {
+    scroll-behavior: smooth;
+scroll-padding: 100px;
+}
+header {
+
+    background-color: #11C76F;
+
+    width: 100vw;
+
+    display: flex;
+
+    padding: 20px 100px;
+
+    position: fixed;
+
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+header ul {
+
+    display: flex;
+
+    list-style: none;
+
+    position: absolute;
+
+    top: 30px;
+
+    right: 100px;
+
+}
+
+header ul li {
+
+    margin-left: 40px;
+
+}
+
+header ul li:hover {
+    border-bottom: 3px solid #fff;
+}
+
+header a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: bold;
+
+}
+
+header img {
+
+    width: 125px;
+
+}
+
+#inicial{
+    display: flex;
+}
+
+#fundo_titulo{
+    position: relative;
+    top: 125px;
+    left: 75px;
+    width: 490px;
+    margin-bottom: 30px;
+}   
+
+#fundo_titulo h1{
+    color: #333;
+    font-size: 50px;
+    margin-left: 23px;
+    margin-top: 7px;
+}
+
+#fundo_titulo p{
+    font-size: 1.525rem;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+#linha{
+    border-bottom: #333 solid 5px;
+    width: 370px;
+    margin-left: 18px;
+}
+
+picture iframe{
+    position: relative;
+    top: 160px;
+    width: 680px;
+    height: 425px;
+    margin-left: 120px;
+}
+
+#parte_cinza{
+    background-color: #EFF0E8;
+    position: relative;
+    height: 400px;
+    top: 180px;
+    display: flex;
+}
+
+#parte_cinza h2{
+    color: #11C76F;
+    font-size: 44px;
+    margin-top: 155px;
+    margin-left: 90px;
+}
+
+#parte_cinza p{
+    width: 600px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    left: 200px;
+    margin-top: 60px;
+
+}
+
+#aulas{
+    height: 300px;
+    position: relative;
+    top: 227px;
+}
+
+#aulas h2{
+    font-size: 40px;
+    color: #11C76F;
+    text-align: center;
+}
+
+#aulas div{
+    margin-right: 30px;
+}
+
+#aulas div h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#aulas div ul li{
+    color: #11C76F;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+#listinhas {
+    display: flex;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+#professores{
+    position: relative;
+    top: 250px;
+    background-color: #fdfff0;
+    margin-bottom: 400px;
+}
+#professores h2{
+    color: #11C76F;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+#professores picture{
+    width: 695px;
+    height: 493px;
+    position: relative;
+    left: 70px;
+}
+
+#professores picture h3{
+    font-size: 30px;
+    color: #11C76F;
+    text-align: center;
+    width: 300px;
+}
+
+#imagem2{
+    position: relative;
+    top: 53px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #11C76F;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+}
+
+footer h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+ footer h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+
+footer button {
+    border: none;
+}
+
+
+
+
+footer input{
+    height: 25px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+
+}
+
+footer input::placeholder{
+    color: white;
+}
+
+footer div{
+    margin-left: 50px;
+}
+
+#btn{
+    background-color: #365AD6;
+    width: 200px;
+    padding: 50px;
+    cursor: pointer;
+}
+#btn p{
+    text-align: center;
+}
+
+footer form {
+    display: flex;
+}
+
